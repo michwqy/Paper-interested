@@ -6,6 +6,7 @@
 + 2016, ACM SIGSAC, [Scalable graph-based bug search for firmware images](https://dl.acm.org/citation.cfm?id=2978370)
 + 2014, ACM SIGSOFT, [Semantics-based obfuscation-resilient binary code similarity comparison with applications to software plagiarism detection](https://dl.acm.org/citation.cfm?id=2635900)
 #### Vulnerabilities Detection
++ 2019, USENIX Security, Looking from the Mirror: Evaluating IoT Device Security through Mobile Companion Apps
 + 2019, IEEE, [ProFuzzer: On-the-fly Input Type Probing for Better Zero-Day Vulnerability Discovery](https://www.cs.purdue.edu/homes/ma229/papers/SP19.pdf)
 + 2019, IEEE, [Razzer: Finding kernel race bugs through fuzzing](https://lifeasageek.github.io/papers/jeong:razzer.pdf)
 + 2018, Science and Information Conference, [Survey of automated vulnerability detection and exploit generation techniques in cyber reasoning systems](https://link.springer.com/chapter/10.1007/978-3-030-01177-2_79)
@@ -16,8 +17,10 @@
 + 2016, ACM on Asia Conference on Computer and Communications Security, [Automated dynamic firmware analysis at scale: a case study on embedded web interfaces](https://dl.acm.org/citation.cfm?id=2897900)
 + 2016, NDSS, [Towards Automated Dynamic Analysis for Linux-based Embedded Firmware](https://www.ndss-symposium.org/wp-content/uploads/2017/09/towards-automated-dynamic-analysis-linux-based-embedded-firmware.pdf)
 + 2014, NDSS, [AVATAR: A Framework to Support Dynamic Security Analysis of Embedded Systems' Firmwares](https://www.ndss-symposium.org/wp-content/uploads/2017/09/02_3_1.pdf)
++ 2014, USENIX Security, [A Large-Scale Analysis of the Security of Embedded Firmwares](https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/costin)
 + 2013, USENIX Security, [{FIE} on Firmware: Finding Vulnerabilities in Embedded Systems Using Symbolic Execution](https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/davidson)
 #### Fuzz
++ 2019, USENIX Security, [FIRM-AFL: High-Throughput Greybox Fuzzing of IoT Firmware via Augmented Process Emulation](https://www.cs.ucr.edu/~heng/pubs/FirmAFL.pdf)
 + 2019, NDSS, [REDQUEEN: Fuzzing with Input-to-State Correspondence](https://www.ei.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2018/12/17/NDSS19-Redqueen.pdf)
 + 2019, NDSS, [PeriScope: An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_04A-1_Song_paper.pdf)
 + 2018, IEEE SP, [T-Fuzz: fuzzing by program transformation](https://ieeexplore.ieee.org/abstract/document/8418632/)
