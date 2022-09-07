@@ -1,4 +1,49 @@
 ## Paper List
+### Usenix Security 
+#### 2021
++ [MPInspector: A Systematic and Automatic Approach for Evaluating the Security of IoT Messaging Protocols](https://www.usenix.org/system/files/sec21-wang-qinying.pdf)
+    + Formal Analysis(Tamarin Prover), IoT, Protocol
++ [Towards Formal Verification of State Continuity for Enclave Programs](https://www.usenix.org/system/files/sec21-jangid.pdf)
+    + Formal Analysis(Tamarin Prover), TEE
++ [DICE*: A Formally Verified Implementation of DICE Measured Boot](https://www.usenix.org/system/files/sec21-tao.pdf)
+    + Formal Analysis, boot protocol
++ [EOSAFE: Security Analysis of EOSIO Smart Contracts](https://www.usenix.org/system/files/sec21-he-ningyu.pdf)
+    + Symbolic Execution, EOSIO, Smart Contract
++ [EVMPatch: Timely and Automated Patching of Ethereum Smart Contracts](https://www.usenix.org/system/files/sec21-rodler.pdf)
+    + Smart Contract, Patch
++ [Evil Under the Sun: Understanding and Discovering Attacks on Ethereum Decentralized Applications](https://www.usenix.org/system/files/sec21-su.pdf)
+    + Dapp, DNN
++ [Smart Contract Vulnerabilities: Vulnerable Does Not Imply Exploited](https://www.usenix.org/system/files/sec21-perez.pdf)
+    + Smart Contract
++ [SmarTest: Effectively Hunting Vulnerable Transaction Sequences in Smart Contracts through Language Model-Guided Symbolic Execution](https://www.usenix.org/system/files/sec21-so.pdf)
+    + Symbolic Execution, Smart Contract
++ [Frontrunner Jones and the Raiders of the Dark Forest: An Empirical Study of Frontrunning on the Ethereum Blockchain](https://www.usenix.org/system/files/sec21-torres.pdf)
+    + smart contract
++ [Formally Verified Memory Protection for a Commodity Multiprocessor Hypervisor](https://www.usenix.org/system/files/sec21-li-shih-wei.pdf)
+    + Formally Verify(Coq), Hypervisor
++ [Automated Discovery of Denial-of-Service Vulnerabilities in Connected Vehicle Protocols](https://www.usenix.org/system/files/sec21-hu-shengtuo.pdf)
+    + Model Checking(TLC), DoS
++ [Privacy-Preserving and Standard-Compatible AKA Protocol for 5G](https://www.usenix.org/system/files/sec21-wang-yuchen.pdf)
+    + Formal Analysis(Tamarin Prover), 5G
+#### 2020
++ [A Formal Analysis of IEEE 802.11's WPA2: Countering the Kracks Caused by Cracking the Counters](https://www.usenix.org/system/files/sec20-cremers.pdf)
+    + Formal Analysis(Tamarin Prover), Network, Protocol 
++ [martVerif: Push the Limit of Automation Capability of Verifying Security Protocols by Dynamic Strategies](https://www.usenix.org/system/files/sec20-xiong.pdf)
+    + Formal Analysis(Tamarin Prover), Network, Protocol, Reinforcement Learning
++ [A Tale of Two Headers: A Formal Analysis of Inconsistent Click-Jacking Protection on the Web](https://www.usenix.org/system/files/sec20-calzavara.pdf)
+    + Formal Analysis, Click-Jacking Protection
++ [APEX: A Verified Architecture for Proofs of Execution on Remote Devices under Full Software Compromise](https://www.usenix.org/system/files/sec20-nunes.pdf)
+    + Formal Analysis(VRASED), Embedded Devices
++ [The Ballot is Busted Before the Blockchain: A Security Analysis of Voatz, the First Internet Voting Application Used in U.S. Federal Elections](https://www.usenix.org/system/files/sec20-specter.pdf)
+    + Voting, App
++ [VoteAgain: A scalable coercion-resistant voting system](https://www.usenix.org/system/files/sec20-lueks.pdf)
+    + Voting
++ [The Industrial Age of Hacking](https://www.usenix.org/system/files/sec20-nosco.pdf)
+    + Hacking
++ [A Spectral Analysis of Noise: A Comprehensive, Automated, Formal Analysis of Diffie-Hellman Protocols](https://www.usenix.org/system/files/sec20-girol_0.pdf)
+    + Formal Analysis(Tamarin Prover), Diffie-Hellman Protocols
++ [TXSPECTOR: Uncovering Attacks in Ethereum from Transactions](https://www.usenix.org/system/files/sec20-zhang-mengya.pdf)
+    + Smart Contract, Transactions
 #### Binary Similarity
 + 2019, NDSS, [Neural machine translation inspired binary code similarity comparison beyond function pairs](https://arxiv.org/abs/1808.04706)
 + 2019, IEEE S&P, [Asm2vec: Boosting static representation robustness for binary clone search against code obfuscation and compiler optimization](https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/666000a038/pdf?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjc2RsX2FwaSIsImF1ZCI6ImNzZGxfYXBpX2Rvd25sb2FkX3Rva2VuIiwic3ViIjoiYW5vbnltb3VzQGNvbXB1dGVyLm9yZyIsImVtYWlsIjoiYW5vbnltb3VzQGNvbXB1dGVyLm9yZyIsImV4cCI6MTU3Mjk2NzUzNn0.DLF8j2LuGb6BhocFI3Tr48PP4OS61IWkC0NqhwvnwjM
