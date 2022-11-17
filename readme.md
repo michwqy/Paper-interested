@@ -1,5 +1,12 @@
 ## Paper List
 ### Usenix Security 
+#### 2022
++ [Mining Node.js Vulnerabilities via Object Dependence Graph and Query](https://www.usenix.org/system/files/sec22-li-song.pdf)
+    + Node.js, Abstract Interpretation
++ [ProFactory: Improving IoT Security via Formalized Protocol Customization](https://www.usenix.org/system/files/sec22-wang-fei.pdf)
+    + IoT, Protocol
++ [SAPIC+: protocol verifiers of the world, unite!](https://www.usenix.org/system/files/sec22-cheval.pdf)
+    + Symbolic Security Protocol Verifier
 #### 2021
 + [MPInspector: A Systematic and Automatic Approach for Evaluating the Security of IoT Messaging Protocols](https://www.usenix.org/system/files/sec21-wang-qinying.pdf)
     + Formal Analysis(Tamarin Prover), IoT, Protocol
@@ -44,6 +51,49 @@
     + Formal Analysis(Tamarin Prover), Diffie-Hellman Protocols
 + [TXSPECTOR: Uncovering Attacks in Ethereum from Transactions](https://www.usenix.org/system/files/sec20-zhang-mengya.pdf)
     + Smart Contract, Transactions
+### IEEE S&P
+#### 2022
++ [SAILFISH: Vetting Smart Contract State-Inconsistency Bugs in Seconds](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9833721&tag=1)
++ [Automated Attack Synthesis by Extracting Finite State Machines from Protocol Specification Documents]
++ [Four Attacks and a Proof for Telegram]
++ [A Formal Security Analysis of the W3C Web Payment APIs: Attacks and Verification]
++ [Cats vs. Spectre: An Axiomatic Approach to Modeling Speculative Execution Attacks]
++ [TASHAROK: Using Mechanism Design for Enhancing Security Resource Allocation in Interdependent Systems]
++ [Formal Model-Driven Discovery of Bluetooth Protocol Design Vulnerabilities]
+#### 2021
++ [SmartPulse: Automated Checking of Temporal Properties in Smart Contracts]
++ [An Interactive Prover for Protocol Verification in the Computational Model]
++ [An I/O Separation Model for Formal Verification of Kernel Implementations]
++ [Symbolic Modeling of Micro Services for Intrusion Detection]
++ [A Security Model and Fully Verified Implementation for the IETF QUIC Record Layer]
++ [Bookworm Game: Automatic Discovery of LTE Vulnerabilities Through Documentation Analysis]
++ [SGUARD: Towards Fixing Vulnerable Smart Contracts Automatically]
++ [Compositional Security for Reentrant Applications]
+#### 2020
++ [Binsec/Rel: Efficient Relational Symbolic Execution for Constant-Time at Binary-Level]
++ [VerX: Safety Verification of Smart Contracts]
++ [VeriSmart: A Highly Precise Safety Verifier for Ethereum Smart Contracts]
++ [Semantic Understanding of Smart Contracts: Executable Operational Semantics of Solidity]
+### NDSS
+#### 2021
++ [As Strong As Its Weakest Link: How to Break Blockchain DApps at RPC Service](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_3C-1_23108_paper.pdf)
++ [A Formal Analysis of the FIDO UAF Protocol](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_4A-2_24363_paper.pdf)
+#### 2020
++ [SODA: A Generic Online Detection Framework for Smart Contracts](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24449-paper.pdf)
+### CCS
+#### 2022
++ [Cerberus: A Formal Approach to Secure and Efficient Enclave Memory Sharing]
++ [Zapper: Smart Contracts with Data and Identity Privacy]
++ [VRust: Automated Vulnerability Detection for Solana Smart Contracts]
++ [Understanding Security Issues in the NFT Ecosystem]
++ [Towards Automated Safety Vetting of Smart Contracts in Decentralized Applications]
++ [Towards Automated Safety Vetting of Smart Contracts in Decentralized Applications]
+#### 2020
++ [ACE: Asynchronous and Concurrent Execution of Complex Smart Contracts]
++ [eThor: Practical and Provably Sound Static Analysis of Ethereum Smart Contracts]
++ [WI is Almost Enough: Contingent Payment All Over Again]
++ [BlackMirror: Preventing Wallhacks in 3D Online FPS Games]
++ [Forensic Analysis in Access Control: Foundations and a Case-Study from Practice]
 #### Binary Similarity
 + 2019, NDSS, [Neural machine translation inspired binary code similarity comparison beyond function pairs](https://arxiv.org/abs/1808.04706)
 + 2019, IEEE S&P, [Asm2vec: Boosting static representation robustness for binary clone search against code obfuscation and compiler optimization](https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/666000a038/pdf?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjc2RsX2FwaSIsImF1ZCI6ImNzZGxfYXBpX2Rvd25sb2FkX3Rva2VuIiwic3ViIjoiYW5vbnltb3VzQGNvbXB1dGVyLm9yZyIsImVtYWlsIjoiYW5vbnltb3VzQGNvbXB1dGVyLm9yZyIsImV4cCI6MTU3Mjk2NzUzNn0.DLF8j2LuGb6BhocFI3Tr48PP4OS61IWkC0NqhwvnwjM
